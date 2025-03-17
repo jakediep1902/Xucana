@@ -22,9 +22,9 @@
         </nav>
         <a href="tel:+84346426979" class="call-button">📞 Gọi ngay</a>
     </header>
-
-    <h1>Trà sữa XUCANA xin chào</h1>
-    <p>Uy tín, Chất lượng, Tận tâm</p>
+    <div id="content"></div> <!-- Phần tử để hiển thị nội dung -->
+    <!-- <h1>Trà sữa XUCANA xin chào</h1>
+    <p>Uy tín, Chất lượng, Tận tâm</p> -->
 
     <div class="product-container">
         <!-- <div class="product" id="1" data-name="Fresh Ginger">
@@ -45,8 +45,8 @@
 
 <script>
 
-const titleID = "CEB9E"
-const secretKey = "IPR43Z1OX7DYWORMIXIRZNFYDZ4GTOYNOX75N1N8UDDSCFY3WT"; // 🔴 THAY THẾ BẰNG SECRET KEY CỦA BẠN
+const titleID = GetTitleID();
+const secretKey =  GetSCkey(); // 🔴 THAY THẾ BẰNG SECRET KEY CỦA BẠN
 
 function checkAdminPassword() {
     const passwordKey = "admin_password_verified";
