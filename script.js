@@ -13,7 +13,7 @@ function GetTitleID()
 // Đảm bảo code chạy sau khi DOM đã tải
 document.addEventListener("DOMContentLoaded", function () {
     const htmlContent = `
-        <h1>Trà sữa XUCANAXIMUI xin chào</h1>
+        <h1>Trà sữa XUCANA xin chào</h1>
         <p>Uy tín, Chất lượng, Tận tâm</p>
     `;
 
